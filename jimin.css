@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Lao&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: noto sans lao ;
+}
+header{
+    background-color: rgb(21, 09, 60);
+}
+.meun-item{
+    color: rgb(75, 107, 107);
+    display: inline-block;
+    padding: 16px;
+    text-decoration: none;
+
+}
+.container{
+    max-width: 900px;
+    min-width: 600px;
+    margin: auto;
+
+}
+.box{
+    background-color: darkseagreen;
+    margin: 10px 5px 30px 50px;
+    padding: 15px;
+    text-align: center;
+    border: dashed 10 px rgb(255, 0, 0);
+    border-radius: 50px;
+
+}
+.img{
+    width: 100%;
+
+}
+.brand{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.button{
+    color: darkgrey;
+    background-color: darkturquoise;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+}
+footer{
+    color: dodgerblue;
+    background-color: darkkhaki;
+    padding: 30px;
+    text-align: center;
+}
+
